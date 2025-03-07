@@ -96,4 +96,6 @@
 ### Kikiola Ojuko (author)
 ### Tofunmi Layi-Babtunde (peer reviewer)
 ### Nathaniella Ogogo (peer reviewer)
-      
+### This website uses the default theme (notmyidea-cms) Provided by Pelican
+### This README references the following book:
+*Modern Technical Writing: An Introduction to Software Documentation* by Andrew Etter, 2016
