@@ -66,7 +66,7 @@
 #### Now you have a public static website. Yay! 🎉
    
   ## FURTHER RESOURCES
-  - When creating the website in **Step 1**, these are the sort of questions to expect and what they mean: [Questions](https://chatgpt.com/share/67ca74f7-8828-8000-bcc2-b79bd3b1ae55) Gotten from ChatGPT
+  - When creating the website in **Step 1**, these are the sort of questions to expect and what they mean: [Questions](https://chatgpt.com/share/67ca74f7-8828-8000-bcc2-b79bd3b1ae55) (Gotten from ChatGPT)
   - Markdown learning resource: [GeeksforGeeks](https://www.geeksforgeeks.org/introduction-to-markdown/)
   - Git and GitHub learning resource : [Git & GitHub](https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/)
   - To learn more about static websites: [Static Websites](https://kinsta.com/knowledgebase/what-is-a-static-website/)
