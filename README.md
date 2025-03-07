@@ -48,7 +48,21 @@
           
       - #### Step B: Setting up your GitHub Project
         - You will need to store your GitHub repository on your computer. This is called *cloning*.
-        - To clone your repository, navigate in the command line to a folder where you want this repository stored
+        - To clone your repository, navigate on the command line to a folder where you want this repository stored
         - Then run this on the command line: git clone https://github.com/yourGitHubusername/nameofyourrepository.git
-        - Recall the website folder you created earlier, now move it into this cloned repository on your computer (you should see files like these two in the image below in your cloned repository)
+        - Recall the website folder you created earlier, now move it into this cloned repository on your computer (you should see files like in the image in your cloned repository) ![Image 4](Image4.png)
+        - Next, commit to GitHub by running these on the command line:
+            1. git add .
+            2. git commit -am "First commit"
+        - Generate the website and send your site to your GitHub repository (under the section called *Pages* by running these on the command line:
+            1. pelican content -s publishconf.py
+            2. ghp-import output -b gh-pages
+            3. git push origin gh-pages
+        - Lastly, in your GitHub repository, click on *Settings*
+        - Then navigate to a section called *Pages*
+        - Click on the link to your website shown on this page. It should look like this: ![Image 5](Image5.png)
+
+#### Now you have a public static website. Yay! 🎉
+   
+        
 
