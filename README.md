@@ -73,7 +73,7 @@
 
 ## FAQs
 1. "Why use Markdown instead of another lightweight markup language?"
-   - According to Etter in his book, some benefits of Markdown are how easy it is to learn for beginners due to its simple syntax, its popularity ensures that there are many text editors for it as well e.t.c.
+   - According to Etter in his book, some benefits of Markdown are how easy it is to learn for beginners due to its simple syntax, its popularity ensures that there are many text editors for it as well e.t.c. These benefits, compared to other lightweight markup languages like ASCIIDoc or  reStructuredText, make Markdown a suitable option for creating and formatting documents.
   
 2. "I can't seem to successfully clone my repository to my local computer, why?"
    - There are quite a few reasons for this. Try these:
