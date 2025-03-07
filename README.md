@@ -1,7 +1,7 @@
 # STATIC WEBSITE CREATION (FOR A RESUME) AND HOSTING THE WEBSITE ON A FORGE 
-**This document describes the process for creating, formatting, and hosting a resume. According to Andrew Etter in his book, "Modern Technical Writing," READMEs help to know what a project does and what ti relies on to work**
+**This document describes the process for creating, formatting, and hosting a resume. According to Andrew Etter in his book, "Modern Technical Writing," READMEs help to know what a project does and what it relies on to work**
 **This document is for anyone who is interested in learning more about a Distributed Version Control System (DVCS), static site generator or forges. They should typically have a basic understanding of how to use Markdown and the command line.**
-#### Note: As Etter notes in his book, static websites are useful due to their simplicity, especially for beginner web devlopers, and security i.e they do not become unavailable due to an error.**
+#### Note: As Etter notes in his book, static websites are useful due to their simplicity, especially for beginner web developers, and security i.e. they do not become unavailable due to an error.**
 
 ## PREREQUISITES
 #### What you will need to carry out the instructions
@@ -25,7 +25,7 @@
         ![Image 1](Image1.png)
 
   - ### Step 2 | RESUME FORMATTING
-    - Using a text editor (e.g VS Code), format your resume with Markdown using headings to create sections, lists, font styles (bold, italic e.t.c). **Note:** Markdown cannot recreate the format of the resume exactly.
+    - Using a text editor (e.g. VS Code), format your resume with Markdown using headings to create sections, lists, font styles (bold, italic e.t.c). **Note:** Markdown cannot recreate the format of the resume exactly.
     - At the top of your Markdown document, include these attributes changing the **Title** and **Date** ![Image 2](Image2.png)
     - Save your Markdown file in the folder named **content** within your website folder.
 
@@ -39,13 +39,13 @@
     - Ctrl + click on the link to open your website in your browser.
    
   - ### Step 5 | HOSTING YOUR WEBSITE ON A FORGE
-    ##### You need other people to be able to view your website on the internet and to do that, you need to host your site using a forge. For this project, we will use GitHub.
+    ##### You need other people to be able to view your website on the internet, and to do that, you need to host your site using a forge. For this project, we will use GitHub.
     
       - #### Step A: Creating a new repository on GitHub
         - First, on the command line run this command to install ghp-import: **python -m pip install ghp-import**
         - Next, install your DVCS (in this case, Git) using this link: [Git](https://git-scm.com/)
-        - Now, create an account on GitHib if you do not already have one : [GitHub](https://github.com/)
-        - After creating your GitHub account, create a new repository, set it to **public**, and name it appropraitely
+        - Now, create an account on GitHub if you do not already have one : [GitHub](https://github.com/)
+        - After creating your GitHub account, create a new repository, set it to **public**, and name it appropriately
           
       - #### Step B: Setting up your GitHub Project
         - You will need to store your GitHub repository on your computer. This is called *cloning*.
@@ -73,12 +73,12 @@
 
 ## FAQs
 1. "Why use Markdown instead of another lightweight markup language?"
-   - According to Etter in his book, some benfits of Markdown are how easy it is to learn for beginners due to its simple syntax, its popularity ensures that there are many text editors for it as well e.t.c.
+   - According to Etter in his book, some benefits of Markdown are how easy it is to learn for beginners due to its simple syntax, its popularity ensures that there are many text editors for it as well e.t.c.
   
 2. "I can't seem to successfully clone my repository to my local computer, why?"
-   - There are quite a few reason for this. Try these:
+   - There are quite a few reasons for this. Try these:
      - **STEP A**
-       - Check if the GitHub repository is public (You should see either **Public** or **Private** this beside your repository name on github).
+       - Check if the GitHub repository is public (You should see either **Public** or **Private** this beside your repository name on GitHub).
        - If Public, go to **STEP B**.
        - If Private, scroll down on the **Settings** page to a section **Danger Zone**
        - Then click on **Change Visibility** and set to Public
@@ -90,11 +90,11 @@
        - Move to **Step C**
      
     - **STEP C**
-       - Try cloning the repository again using this command and making sure to substitute in your GitHub username and repsoitory name: git clone https://github.com/username/repositoryname.git
+       - Try cloning the repository again using this command and making sure to substitute in your GitHub username and repository name: git clone https://github.com/username/repositoryname.git
 
 ## CREDITS
 ### Kikiola Ojuko (author)
-### Tofunmi Layi-Babtunde (peer reviewer)
+### Tofunmi Layi-Babatunde (peer reviewer)
 ### Nathaniella Ogogo (peer reviewer)
 ### This website uses the default theme (notmyidea-cms) Provided by Pelican
 ### This README references the following book:
