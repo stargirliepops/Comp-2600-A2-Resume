@@ -9,7 +9,7 @@
 - A Text Editor (I used **VS Code** to write the Markdown file(s) for my website, you can download the text editor for your operating system here: [Install VS Code](https://code.visualstudio.com/download))
 - A Distributed Version Control System (I used Git for my website's files)
 - A Static Site Generator (I used Python-based Pelican - it supports Markdown)
-- A Forge (that can host static websites and supports the DVCS you choose)
+- A Forge (To host the static website and that supports the DVCS you choose. I used GitHub.)
 
 ## INSTRUCTIONS
 #### A guide for you
@@ -34,4 +34,21 @@
 
   - ### Step 4 | VIEWING YOUR WEBSITE IN YOUR BROWSER
     - To view your static website on your computer, go to the command line and run **pelican --listen**
-    - Then 
+    - After that, you should see this on the command line: ![Image 3](Image3.png)
+    - Ctrl + click on the link to open your website in your browser.
+   
+  - ### Step 5 | HOSTING YOUR WEBSITE ON A FORGE
+    ##### You need other people to be able to view your website on the internet and to do that, you need to host your site using a forge. For this project, we will use GitHub.
+    
+      - #### Step A: Creating a new repository on GitHub
+        - First, on the command line run this command to install ghp-import: **python -m pip install ghp-import**
+        - Next, install your DVCS (in this case, Git) using this link: [Git](https://git-scm.com/)
+        - Now, if create an account on GitHib, if you do not already have one : [GitHub](https://github.com/)
+        - After creating your GitHub account, create a new repository, set it to **public**, and name it appropraitely
+          
+      - #### Step B: Setting up your GitHub Project
+        - You will need to store your GitHub repository on your computer. This is called *cloning*.
+        - To clone your repository, navigate in the command line to a folder where you want this repository stored
+        - Then run this on the command line: git clone https://github.com/yourGitHubusername/nameofyourrepository.git
+        - Recall the website folder you created earlier, now move it into this cloned repository on your computer (you should see files like these two in the image below in your cloned repository)
+
