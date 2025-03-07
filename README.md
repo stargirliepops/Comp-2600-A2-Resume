@@ -70,3 +70,30 @@
   - Markdown learning resource: [GeeksforGeeks](https://www.geeksforgeeks.org/introduction-to-markdown/)
   - Git and GitHub learning resource : [Git & GitHub](https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/)
   - To learn more about static websites: [Static Websites](https://kinsta.com/knowledgebase/what-is-a-static-website/)
+
+## FAQs
+1. "Why use Markdown instead of another lightweight markup language?"
+   - According to Etter in his book, some benfits of Markdown are how easy it is to learn for beginners due to its simple syntax, its popularity ensures that there are many text editors for it as well e.t.c.
+  
+2. "I can't seem to successfully clone my repository to my local computer, why?"
+   - There are quite a few reason for this. Try these:
+     - **STEP A**
+       - Check if the GitHub repository is public (You should see either **Public** or **Private** this beside your repository name on github).
+       - If Public, go to **STEP B**.
+       - If Private, scroll down on the **Settings** page to a section **Danger Zone**
+       - Then click on **Change Visibility** and set to Public
+         
+    - **STEP B**
+       - On the command line check if you have Git installed by running this command: git --version
+       - If installed, you should see an output like : git version 2.48.1.windows.1 (Note: the numbers may vary, that is fine)
+       - If not installed, install Git here: [Git](https://git-scm.com/)
+       - Move to **Step C**
+     
+    - **STEP C**
+       - Try cloning the repository again using this command and making sure to substitute in your GitHub username and repsoitory name: git clone https://github.com/username/repositoryname.git
+
+## CREDITS
+### Kikiola Ojuko (author)
+### Tofunmi Layi-Babtunde (peer reviewer)
+### Nathaniella Ogogo (peer reviewer)
+      
