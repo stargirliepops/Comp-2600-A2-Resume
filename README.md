@@ -20,9 +20,10 @@
     - Next, on the command line, navigate to the directory where you want your website to be located on your computer. Create a new folder.
     - Then run this command inside the new folder to create a website: **pelican-quickstart** (You will need to answer some intuitive questions during this process)
     - You should end up with these documents below or similar ones inside your website folder.
-        ![Image 1](Screenshot 2025-03-06 190347.png)
+        ![Image 1](Image 1.png)
 
   - ### Step 2 | RESUME FORMATTING
     - Using a text editor (e.g VS Code), format your resume with Markdown using headings to create sections, lists, font styles (bold, italic e.t.c). **Note:** Markdown cannot recreate the format of the resume exactly.
+    - At the top of your Markdown document, include these attributes ![Image 2](Image 2.png)
     - Save this Markdown file in the folder named **content** within your website folder.
     - 
