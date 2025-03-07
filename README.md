@@ -1,6 +1,7 @@
 # STATIC WEBSITE CREATION (FOR A RESUME) AND HOSTING THE WEBSITE ON A FORGE 
-**This document describes the process for creating, formatting, and hosting a resume**
+**This document describes the process for creating, formatting, and hosting a resume. According to Andrew Etter in his book, "Modern Technical Writing," READMEs help to know what a project does and what ti relies on to work**
 **This document is for anyone who is interested in learning more about a Distributed Version Control System (DVCS), static site generator or forges. They should typically have a basic understanding of how to use Markdown and the command line.**
+#### Note: As Etter notes in his book, static websites are useful due to their simplicity, especially for beginner web devlopers, and security i.e they do not become unavailable due to an error.**
 
 ## PREREQUISITES
 #### What you will need to carry out the instructions
@@ -17,8 +18,8 @@
   - ### Step 1 | GENERATING YOUR STATIC WEBSITE
     - Install Python: [Python](https://www.python.org/)
     - On the command line, install Pelican by running this command: **python -m pip install "pelican[markdown]"**
-    - Next, on the command line, navigate to the directory where you want your website to be located on your computer.
-    - Now, create a new folder.
+    - Next, navigate to the directory where you want your website to be located on your computer.
+    - Now, create a new folder for your website documents.
     - Then run this command inside the new folder to create a website: **pelican-quickstart** (You will need to answer some intuitive questions during this process)
     - You should end up with these documents below or similar ones inside your website folder.
         ![Image 1](Image1.png)
@@ -30,7 +31,7 @@
 
   - ### Step 3 | ADDING YOUR RESUME TO YOUR WEBSITE
     - To turn your resume to a website, Pelican converts the Markdown file into HTML.
-    - To do this, on the command line (in your website's folder) run **pelican content**
+    - To do this, run **pelican content** on the command line (in your website's folder) 
 
   - ### Step 4 | VIEWING YOUR WEBSITE IN YOUR BROWSER
     - To view your static website on your computer, go to the command line and run **pelican --listen**
@@ -43,7 +44,7 @@
       - #### Step A: Creating a new repository on GitHub
         - First, on the command line run this command to install ghp-import: **python -m pip install ghp-import**
         - Next, install your DVCS (in this case, Git) using this link: [Git](https://git-scm.com/)
-        - Now, if create an account on GitHib, if you do not already have one : [GitHub](https://github.com/)
+        - Now, create an account on GitHib if you do not already have one : [GitHub](https://github.com/)
         - After creating your GitHub account, create a new repository, set it to **public**, and name it appropraitely
           
       - #### Step B: Setting up your GitHub Project
@@ -64,5 +65,8 @@
 
 #### Now you have a public static website. Yay! 🎉
    
-        
-
+  ## FURTHER RESOURCES
+  - When creating the website in **Step 1**, these are the sort of questions to expect and what they mean: [Questions](https://chatgpt.com/share/67ca74f7-8828-8000-bcc2-b79bd3b1ae55) Gotten from ChatGPT
+  - Markdown learning resource: [GeeksforGeeks](https://www.geeksforgeeks.org/introduction-to-markdown/)
+  - Git and GitHub learning resource : [Git & GitHub](https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/)
+  - To learn more about static websites: [Static Websites](https://kinsta.com/knowledgebase/what-is-a-static-website/)
