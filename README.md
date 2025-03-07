@@ -1,5 +1,5 @@
 # STATIC WEBSITE CREATION (FOR A RESUME) AND HOSTING THE WEBSITE ON A FORGE 
-**This document describes the process for creating, formatting, and hosting a resume. According to Andrew Etter in his book, *Modern Technical Writing,* READMEs help to know what a project does and what it relies on to work**
+**This document describes the process for creating, formatting, and hosting a resume. According to Andrew Etter in his book, *Modern Technical Writing,* READMEs help readers know what a project does and what it relies on to work**
 **This document is for anyone who is interested in learning more about a Distributed Version Control System (DVCS), static site generator or forges. They should typically have a basic understanding of how to use Markdown and the command line.**
 #### Note: As Etter notes in his book, static websites are useful due to their simplicity, especially for beginner web developers, and security i.e. they do not become unavailable due to an error.**
 
