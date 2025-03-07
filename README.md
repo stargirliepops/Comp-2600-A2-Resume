@@ -64,6 +64,8 @@
         - Click on the link to your website shown on this page. It should look like this: ![Image 5](Image5.png)
 
 #### Now you have a public static website. Yay! 🎉
+**Note: After creating and hosting your own public static website, you should make a README file in Markdown to help readers who view your source code in your repository know how to build it themselves and what it does as well.**
+**Add this README file to your repository's **main** branch.** (From Etter's book)
    
   ## FURTHER RESOURCES
   - When creating the website in **Step 1**, these are the sort of questions to expect and what they mean: [Questions](https://chatgpt.com/share/67ca74f7-8828-8000-bcc2-b79bd3b1ae55) (Gotten from ChatGPT)
